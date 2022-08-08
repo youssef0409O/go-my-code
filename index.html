@@ -3,51 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>welcome</h1>
+    <header>  
+        <h1> hello and welcome I am a web developer </h1>
+        <h4><input name="name" type="text" placeholder=" search"></h4>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/cpP-fCo8Dn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </header>
     <nav>
-        <a href="#About">About</a>
-      <a href="#resume">Resume</a>
-      <a href="#Work">Work</a>
-      <a href="#contact">ContactMe</a>
+        <a href="#about ">about</a> 
+        <a href="#work ">work</a>
+        <a href="#resume ">resum</a>
+        <a href="#contact ">contact</a>
     </nav>
-    <main>
-        <div id="about">
-            <img src="profile.jpg" alt="profile" />
-            <h2> name:youssef </h2>
-        </div>
-        <div id="resume">
-            <p> i work as a fulltasck developer</p>
-        </div>
-        <div id="work">
-            <h3> my skills </h3>
-            <ul>
-                <li> HTML </li>
-                <li> CSS </li>
-                <li> JAVASCRIPT</li>
-            </ul>
-        </div>
+    <div id="about">
+        <img src="ww.jfif" alt="ww">
+        <h2>name:obito</h2>
+    </div>
+    <div id="resume"> 
+         <h2>i work as fulltask web</h2>
+    </div>
+    <div id="work" >
+        <h3  class="ca">take a look to my styles</h3>
+        <ul class="title">
+            <li>html</li>
+            <li>javascript</li>
+            <li>css</li>
+            <img src="zz.png" alt="zz" style="display:block;margin-left:auto ;margin-right: auto; ">
+        </ul>
 
-    </main>
-    <footer id="contact">
-        <form>
-            <div>
-                <h4>fullName</h4>
-            <input placeholder="type your name " type="text" />
-            </div>
-            <div>
-                <h4>Email</h4>
-                <input placeholder="typr your email" type="email">
-            </div>
-
-        </form>
-
-         </footer>
+    </div>
+    <form>
+        <div id="contact">
+            <label>Full name</label><br>
+            <input name="name" type="text" placeholder="Type your name">
+        </div>
+    
+        <div>
+            <label> email</label><br>
+            <input name="email" type="email" placeholder="Type your email" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>

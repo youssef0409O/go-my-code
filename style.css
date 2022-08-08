@@ -1,0 +1,61 @@
+header h1 {
+    color: rgba(255, 68, 0, 0.723);
+	font-family: roboto;
+	text-align: center;
+  border: 5px dashed blue;
+  padding: .5em;
+}
+header {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header input{
+  text-align: center;
+  font-size: 50px;
+}
+header h4{
+  text-align: right;
+}
+body {
+    background-color: rgba(0, 255, 149, 0.19);
+    margin: 0;
+  }
+  
+  nav{
+    text-align: center;
+  }
+  a {
+
+    background-color:white;
+    color: red;    
+    font-family: sans-serif;
+    text-align: center;
+    display: inline;
+  }
+  
+  .filter {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 16px;
+  }
+  .title{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid rgb(7, 7, 7);
+  }
+  .ca{
+    color: rgb(127, 139, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid rgb(7, 7, 7);
+    display: inline-block
+  }
+  
+  h2{
+    color: rgba(205, 14, 14, 0.968);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+  
+  }
+  a:link{
+    color:tomato;
+  }
